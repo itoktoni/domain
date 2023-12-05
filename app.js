@@ -6,7 +6,8 @@ const routes = require('./route');
 app.use('/configuration', routes);
 
 app.get('/', (req, res) => {
-  res.send('OK');
+    var data = {'status' : 'OK'};
+    res.json(data);
 });
 
 app.listen(port, () => {

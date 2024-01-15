@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
         case "obsesiman":
           data = {
             "nama" : "Obsesiman",
-            "domain" : "https://obsesiman.my.id",
+            "domain" : "https://live.obsesiman.my.id",
             "logo" : "http://alphara.co.id/assets/obsesiman.png",
             "warna" : null,
             "menu" : null,

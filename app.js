@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 const routes = require('./route');
-app.use('/configuration', routes);
+app.use('/api/configuration', routes);
 
 app.get('/', (req, res) => {
     var data = {'status' : 'OK'};
